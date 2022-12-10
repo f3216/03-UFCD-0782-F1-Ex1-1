@@ -2,7 +2,7 @@
 Este exercício é escrito em C, será testado com o make e um script bash.
 
 ### O Exercício
-Escreva um programa (OlaMundo.c) em C para imprimir no terminal o texto “Olá Mundo!”. 
+Escreva um programa (hello.c) em C para imprimir no terminal o texto “Olá Mundo!”. 
 
 ### Saída Esperada:
     
