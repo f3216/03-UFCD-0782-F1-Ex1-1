@@ -10,4 +10,4 @@ Escreva um programa (OlaMundo.c) em C para imprimir no terminal o texto “Olá 
 
 
 ### Notas
-- o teste verificará se a saída é exatamente a esperada.
+- o teste verificará se a saída do programa é exatamente a esperada.
