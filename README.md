@@ -1,14 +1,13 @@
-# Autograding Example: C
-This example project is written in C, and tested with make and bash scripts.
+# 03 - UFCD-0782 - F1 - Ex1
+Este exercício é escrito em C, será testado com o make e um script bash.
 
-### The assignment
-The tests are currently failing because we're printing the wrong string. Correcting the `printf` will fix the tests.
+### O Exercício
+Escreva um programa (OlaMundo.c) em C para imprimir no terminal o texto “Olá Mundo!”. 
 
-### Setup command
-N/A
+### Saída Esperada:
+    
+    Olá Mundo!
 
-### Run command
-`make test`
 
-### Notes
-- `gcc` can be used to compile and link C applications for use with existing test harnesses or C testing frameworks.
+### Notas
+- o teste verificará se a saída é exatamente a esperada.
