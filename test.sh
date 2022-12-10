@@ -1,24 +1,24 @@
-echo "Running tests..."
+echo "A executar os testes ..."
 echo
 
 output=$(./a.out)
-expected_output="Hello, World!"
+expected_output="Olá Mundo!"
 
 if [ $? -eq 0 ] ; then
-  echo "Pass: Program exited zero"
+  echo "Aprovado: o programa terminou com retorno zero"
 else
-  echo "Fail: Program did not exit zero"
+  echo "Falha: o programa não retornou zero"
   exit 1
 fi
 
 if [ "$output" == "$expected_output" ] ; then
-  echo "Pass: Output is correct"
+  echo "Aprovado: A saída é correcta"
 else
-  echo "Expected '$expected_output' but got: $output"
+  echo "Esperada a saída '$expected_output' mas o programa devolveu: $output"
   exit 1
 fi
 
 echo
-echo "All tests passed."
+echo "Todos os testes terminados com sucesso."
 
 exit 0
